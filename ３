@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .button {
+      padding: 10px 20px;
+      background-color: gray;
+      color: black;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button:active {
+      background-color: #ff6347;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="button">Click me</button>
+
+</body>
+</html>
+
