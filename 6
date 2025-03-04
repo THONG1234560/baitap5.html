@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-6.html</title>
+    <style>
+    .container {
+      width: 200px;
+      height: 150px;
+      background-color: lightgray;
+      display: block;
+      font-family: Arial, sans-serif;
+    }
+    .square {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: gray;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .square1 {
+      animation: fadeIn 2s ease-in-out;
+    }
+    .square1:hover {
+      background-color: rgb(83, 79, 79);
+    }
+    .square2:hover {
+      background-color: blue;
+    }
+    .square3 {
+      transition: transform 0.3s ease-in-out;
+    }
+    .square3:hover {
+      transform: scale(1.5);
+    }
+    .square4 {
+      transition: transform 0.3s ease-in-out;
+    }
+    .square4:hover {
+      transform: scale(0.5);
+    }
+    .square5 {
+      transition: transform 0.3s ease-in-out;
+    }
+    .square5:hover {
+      transform: rotate(45deg); 
+    }
+    .square6 {
+      transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out; /* Added transition for border-radius */
+    }
+    .square6:hover {
+      transform: ;
+      border-radius: 40%; 
+    }
+    .square7 {
+      transition: border 0.3s ease-in-out; 
+    }
+    .square7:hover {
+      border: 7px solid blue; 
+    }
+    </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="square square1">Fade in</div>
+    <div class="square square2">Change color</div>
+    <div class="square square3">Grow</div>
+    <div class="square square4">Shrink</div>
+    <div class="square square5">Rotate</div>
+    <div class="square square6">Square to Circle</div>
+    <div class="square square7">insert border</div>
+  </div>
+
+</body>
+</html>
